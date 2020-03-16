@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">CookHelper</string>
+    <string name="category_prompt">Choose a categroy</string>
+
+    <string-array name="category_arrays">
+        <item>Choose category</item>
+        <item>Greek</item>
+        <item>Chinese</item>
+        <item>Canadian</item>
+        <item>Colombian</item>
+        <item>Italian</item>
+
+    </string-array>
+    <string-array name="class_arrays">
+    <item>Choose Class</item>
+    <item>Chicken</item>
+    <item>Beef</item>
+    <item>Pork</item>
+
+</string-array>
+    <string-array name="type_arrays">
+        <item>Choose type</item>
+        <item>Main dish</item>
+        <item>Starter</item>
+        <item>Dessert</item>
+        <item>Appetizer</item>
+        <item>Drink</item>
+        <item>Sauce</item>
+
+    </string-array>
+    <string-array name="Ingredients">
+        <item>Choose ingredient</item>
+        <item>tomato</item>
+        <item>lettuce</item>
+        <item>chicken</item>
+        <item>beef</item>
+        <item>avocado</item>
+        <item>potato</item>
+        <item>onion</item>
+    </string-array>
+
+    <string-array name="enumeration">
+        <item>Choose enum</item>
+        <item>gm</item>
+        <item>pieces</item>
+        <item>liter</item>
+        <item>pinch</item>
+
+    </string-array>
+
+
+
+
+    <string name="title_activity_home">home</string>
+    <string name="enterName">Enter Recipe Name...</string>
+</resources>

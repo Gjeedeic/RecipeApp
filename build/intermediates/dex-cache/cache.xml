@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_552b25ab4cb56cb8d31111ac363b68e41702c28b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_efff9b292bc17f56406839bb5d48f47f5616e845.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_da36a2eff5e89a82855284120896ae3b9f73704c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2e55b433a72652b49208f685906c16093caaf96b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0539e0733b594bc6864aa3315a8e613cc55236d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_ceeea81ab0343a3985f56eb41939a00aa4b3ab3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_a18f00f10da2b229fec40e14bb9555c8b237968a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_eadc5bdf03fae9d7ee8b720fcdf9d908cc7f5c30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_d0474266896c2358299c0a3972793a39aa03a160.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_0ae0280cedae8bfb5a83942a12f8124af4a644e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b17fed4a01b0b0ed58758fb59f2203f582949718.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_6a08aab4afd5e96656e2a29585c5d0b9bae444ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_b9e6aa330ab5b70706bd567fbed333d152cd6e72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_b877592e0d73537ac028b2b0a59762f48e5ce2ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/michaelj.egbunike/Documents/CookHelper/cookhelper code/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_4931df4d5f587ff42f1dcf24f99bb0dc8b34e7fa.jar" />
+    </item>
+
+</items>

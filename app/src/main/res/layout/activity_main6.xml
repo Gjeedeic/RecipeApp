@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.huang.cookhelper.Main6Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/MainLayout"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/headline"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Edit Recipe:"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:id="@+id/title"
+                    android:gravity="left|center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:textStyle="normal|bold"
+                    android:textSize="24sp"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="32dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:layout_weight="0.03"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/subhead1">
+
+                <TextView
+                    android:text="Choose Ingredients"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subtitle1"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textStyle="normal|bold"
+
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_height="45dp">
+
+                <Spinner
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner11"
+                    android:layout_width="100dp"
+                    android:layout_weight="0.61"
+                    android:entries="@array/Ingredients" />
+
+                <EditText
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText11"
+                    android:layout_width="65dp"
+                    android:hint="quantity"
+                    android:layout_weight="0.17" />
+
+                <Spinner
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner12"
+                    android:layout_weight="0.31"
+                    android:layout_width="60dp"
+                    android:entries="@array/enumeration" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_height="45dp">
+
+                <Spinner
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner21"
+                    android:layout_width="100dp"
+                    android:layout_weight="0.61"
+                    android:entries="@array/Ingredients" />
+
+                <EditText
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText21"
+                    android:layout_width="65dp"
+                    android:hint="quantity"
+                    android:layout_weight="0.17" />
+
+                <Spinner
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner22"
+                    android:layout_weight="0.31"
+                    android:layout_width="60dp"
+                    android:entries="@array/enumeration" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_height="45dp">
+
+                <Spinner
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner31"
+                    android:layout_width="100dp"
+                    android:layout_weight="0.61"
+                    android:entries="@array/Ingredients" />
+
+                <EditText
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText31"
+                    android:layout_width="65dp"
+                    android:hint="quantity"
+                    android:layout_weight="0.17" />
+
+                <Spinner
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner32"
+                    android:layout_weight="0.31"
+                    android:layout_width="60dp"
+                    android:entries="@array/enumeration" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_height="45dp">
+
+                <Spinner
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner41"
+                    android:layout_width="100dp"
+                    android:layout_weight="0.61"
+                    android:entries="@array/Ingredients" />
+
+                <EditText
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText41"
+                    android:layout_width="65dp"
+                    android:hint="quantity"
+                    android:layout_weight="0.17" />
+
+                <Spinner
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner42"
+                    android:layout_weight="0.31"
+                    android:layout_width="60dp"
+                    android:entries="@array/enumeration" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/subhead2"
+                android:weightSum="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Enter Directions and Other Information:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:id="@+id/subtitle2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textStyle="normal|bold"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:id="@+id/pretime">
+
+                <TextView
+                    android:text="Preparation Time:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pre"
+                    android:layout_weight="0.77"
+                    android:typeface="normal"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:fontFamily="serif"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText6"
+                    android:layout_weight="1"
+                    android:hint="  Enter Prep time"
+                    android:background="@drawable/border_style"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:text="Cook Time:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/co"
+                    android:layout_weight="1"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textSize="14sp"
+                    android:typeface="serif" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/cooktime"
+                    android:layout_weight="0.53"
+                    android:hint="  Enter Cooking time"
+                    android:background="@drawable/border_style"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:text="Calories:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ca"
+                    android:layout_weight="1"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:fontFamily="serif"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText8"
+                    android:layout_weight="0.43"
+                    android:hint="  Enter the calories"
+                    android:background="@drawable/border_style"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="114dp">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/editText2"
+                    android:layout_weight="1"
+                    android:hint="step1&#10;step 2 &#10;step 3..."
+                    android:background="@drawable/border_style"
+                    android:padding="10dp"
+                    style="@android:style/Widget.EditText"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/subhead3">
+
+                <TextView
+                    android:text="Select Category and Type:"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:id="@+id/subtitle3"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textStyle="normal|bold"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="38dp">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/category"
+                    android:entries="@array/category_arrays"
+                    android:layout_weight="1" />
+
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/type"
+                    android:entries="@array/type_arrays"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="177dp"
+                android:layout_height="37dp">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/classr"
+                    android:entries="@array/class_arrays" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <Button
+                    android:text="Cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cancel"
+                    android:layout_weight="1.27"
+                    android:onClick="cancelClick" />
+
+                <Button
+                    android:text="Edit Recipe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/add"
+                    android:layout_weight="1"
+                    android:onClick="editClick" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
